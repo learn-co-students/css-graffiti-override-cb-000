@@ -1,1 +1,9 @@
-/* write your override styles here */
+/* write your override styles here
+#wall .tag-1, #wall div.tag-1~#tag-2, #wall div.tag-1~#tag-2+#tag-3, div#wall div[class="parent"] {
+  display: none;
+}
+#wall *[class], #wall .tag-1~#tag-2, div#wall #tag-2~div[class*="slick"], div#wall .parent #tag-4, body div#wall #tag-3~.parent div[id].slick
+*/
+#wall *[class], #wall .tag-1~#tag-2, div#wall #tag-2~div[class*="slick"], body div#wall div#tag-3~div.parent div[id], body div#wall #tag-3~.parent div[id].slick {
+  display: none;
+}
