@@ -1,1 +1,43 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+/* #wall #tag-2 */
+div#wall #tag-2 {
+  display: none;
+}
+
+/* div#wall #tag-3.slick */
+div#wall div#tag-3.slick {
+  display: none;
+}
+
+/* #wall #tag-4 */
+div#wall #tag-4 {
+  display: none;
+}
+
+/* div#wall .parent #tag-5.slick  */
+div#wall .parent div#tag-5.slick {
+  display: none;
+}
+
+/* not working below here */
+/*
+selects a div of id wall
+selects a div with a class of parent
+selects a div that has a pseudo class of last-child
+selects a div that has an id of tag-6
+*/
+/* div#wall div.parent div:last-child div#tag-6 */
+/* body div#wall .parent:nth-child(1) > div:last-child div#tag-6 */
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+/* body div#wall div.parent div > #tag-7.slick */
+body div#wall div.parent div > div#tag-7.slick {
+  display: none;
+}
