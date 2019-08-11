@@ -1,1 +1,45 @@
-/* write your override styles here */
+ /*write your override styles here */
+#wall .tag-1{
+  display: none;
+}
+#wall div#tag-2{
+	display: none;
+}
+
+div#wall div#tag-3.slick{
+	display: none;
+}
+
+#wall .parent #tag-4{
+	display: none;
+}
+
+div#wall .parent div#tag-5.slick{
+	display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+	display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+	display: none;
+}
+
+
+
+/*.tag-1
+#tag-2
+#tag-3
+#tag-4
+#tag-5
+#tag-6
+#tag-7
+
+div id wall divid tag3 class slick
+div id wall divclass tag1 div tag 2
+div tag3 class slick
+divclass parent divid tag-4
+  div class parent div id tag5 class slick
+div class parent div div idtag6
+divclass parent div tag7 slick*/
